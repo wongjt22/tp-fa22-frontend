@@ -66,7 +66,7 @@ Complete the NavBar navigation component in nav-bar.tsx. Clicking "home" should 
 
 ### Task Three
 
-Complete the Voting page and Victors page in voting.tsx and victors.tsx. Your task is to get data from this [API]() about the images, scores, and descriptions of each runner and victor. 
+Complete the Voting page and Victors page in voting.tsx and victors.tsx. Your task is to get data from this [API](https://bff2a0c6-38b2-4c2b-8089-4620d6d70941.mock.pstmn.io/data) about the images, scores, and descriptions of each runner and victor. 
 
 You should be able to map this data to create cards in the Voting page. You should also keep track of the scores in the Voting page using local state and be able to increment/decrement using your icons (without resetting the other runners' scores). 
 
