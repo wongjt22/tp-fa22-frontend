@@ -1,19 +1,24 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Box, Image, Heading, Text, HStack, Spacer } from "@chakra-ui/react";
+import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <Navbar bg="dark" variant="dark">
-      <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#voting">Voting</Nav.Link>
-          <Nav.Link href="#victors">Victors</Nav.Link>
-        </Nav>
-      </Container>
-    </Navbar>
+    <Box px={12} py={2} bg="black">
+      <HStack align="center" spacing={4}>
+        <Image src="/cheese-icon.svg" w={10} />
+        <Heading color="white" fontSize="2xl">
+          Grand Cheese Race
+        </Heading>
+        <Spacer />
+        <HStack color="white" fontSize="2xs" fontWeight="semibold">
+          <Text>HOME</Text>
+          <Text>/</Text>
+          <Text>VOTING</Text>
+          {/* <Text>/</Text>
+          <Text>PAST VICTORS</Text> */}
+        </HStack>
+      </HStack>
+    </Box>
   );
 };
 
