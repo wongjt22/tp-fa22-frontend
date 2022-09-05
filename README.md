@@ -72,6 +72,8 @@ You should be able to map this data to create cards in the Voting page. You shou
 
 You will need to also map the API values you get to create a list of previous winners in the Victors page that, when expanded, shows a short description.
 
+Note: this API was rate limited. We will be releasing an update soon.
+
 ## Submission
 
 **Congratulations!** To submit your project, please make sure your project is in a GitHub repo that is set to private. You will be submitting your code on [Gradescope](https://www.gradescope.com/). If you do not have a Gradescope account, please create one. If you are unable to create one, please email us
