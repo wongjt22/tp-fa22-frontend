@@ -6,6 +6,7 @@ If you have any questions, please reach out to us at [our email](webatberkeley@g
 
 ## Clarifications
 - Due to rate-limiting on our previous API endpoint hosted on Postman, it was updated to: https://raw.githubusercontent.com/web-at-berkeley/fa22-frontend-api-endpoint/main/data.json
+- The API data was updated once again. The "victors" information should no longer contain a "score" field, instead a "year" field.
 
 ## Introduction
 
