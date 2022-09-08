@@ -11,9 +11,13 @@ const NavBar = () => {
         </Heading>
         <Spacer />
         <HStack color="white" fontSize="2xs" fontWeight="semibold">
-          <Text>HOME</Text>
+          <a href="/">
+            <Text>HOME</Text>
+          </a>
           <Text>/</Text>
-          <Text>VOTING</Text>
+          <a href="/voting">
+            <Text>VOTING</Text>
+          </a>
           {/* <Text>/</Text>
           <Text>PAST VICTORS</Text> */}
         </HStack>
